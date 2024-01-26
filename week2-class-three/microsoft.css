@@ -1,0 +1,758 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+}
+
+.joy{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+    
+
+
+}
+.joy-pre{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+
+
+}
+
+.joy102 li{
+    line-height: 2px;
+    font-size: 13px;
+    margin: 0px 20px;
+}
+ul a{
+    color: black;
+}
+.joy102{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    /* background-color: yellow; */
+    justify-content: space-between;
+    width: 500px;
+
+}
+.joy202{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+.joy-img1{
+    width: 110px;
+    margin-left: 50px;
+    height: 40px;
+
+    
+}
+
+.joy202 img{
+    height: 15px;
+    cursor: pointer;
+}
+
+.joy202 ul li{
+    line-height: 2px;
+    font-size: 17px;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 20px 10px;
+}
+.joyO{
+    margin-top: 20px;
+}
+.joy202 ul a{
+    font-size: 13px;
+    text-decoration: none;
+}
+.joy101{
+    justify-content: space-around;
+    margin: 20px 10px;
+    padding: -100px;
+}
+
+
+.faith{
+    background: url(./1st-section.jpeg);
+    background-repeat: no-repeat;
+    height: 500px;
+
+
+}
+
+.faith102 img{
+    width: 20px;
+    height: 10px;
+    padding-top: 8px;
+    cursor: pointer;
+
+}
+
+
+.faith101 h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    color: rgb(255,255,255);
+
+}
+
+.faith101 p{
+    font-size: large;
+    color:rgb(255,255,255);
+    margin-bottom: 20px;
+
+
+}
+
+.faith102{
+    display: flex;
+}
+
+
+.faith101{
+    padding-block: 120px;
+    padding-left: 70px;
+}
+
+.faith101 button{
+    cursor: pointer;
+    background-color:rgb(0,103,184);
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    color:rgb(255,255,255) ;
+    border-radius: 2px;
+    border: 1px solid rgb(0,103,184);
+
+}
+
+.faith102:hover{
+    text-decoration: underline;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+
+.calms{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.calms img{
+    width: 25px;
+    height: 20px;
+    /* padding-top: 8px; */
+    margin-top: 20px;
+
+
+}
+.hope{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.hope100{
+    width: 25%;
+    
+}
+
+.hope101 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+
+}
+
+.hope101 p{
+    line-height: 20px;
+
+}
+
+.hope102{
+    display: flex;
+    margin-top: 20px;
+}
+
+.hope102 img{
+    width: 20px;
+    height: 10px;
+    padding-top: 8px;   
+    cursor: pointer;
+}
+
+.hope102:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+
+    
+}
+
+.hope102 p{
+    color: blue;
+}
+
+
+.hope201{
+    width: 25%;
+
+}
+
+.hope202 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+
+}
+
+.hope202 p{
+    line-height: 20px;
+
+}
+
+.hope203{
+    display: flex;
+    margin-top: 20px;
+}
+
+.hope203 img{
+    width: 20px;
+    height: 10px;
+    padding-top: 8px; 
+    cursor: pointer;  
+
+}
+
+.hope203:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+
+
+    
+}
+
+.hope203 p{
+    color: blue;
+}
+
+
+.hope301{
+    width: 25%;
+}
+
+
+.hope302 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+
+}
+
+.hope302 p{
+    line-height: 20px;
+
+}
+
+.hope303{
+    display: flex;
+    margin-top: 20px;
+}
+
+.hope303 img{
+    width: 20px;
+    height: 10px;
+    padding-top: 8px;   
+
+}
+
+.hope303:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+
+    
+}
+
+.hope303 p{
+    color: blue;
+}
+
+
+.hope401{
+    width: 25%;
+}
+
+.hope402 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+
+}
+
+.hope402 p{
+    line-height: 20px;
+
+}
+
+.hope404{
+    display: flex;
+    margin-top: 20px;
+}
+
+.hope404 img{
+    width: 20px;
+    height: 10px;
+    padding-top: 8px;
+    cursor: pointer;   
+
+}
+
+.hope404:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+
+    
+}
+
+.hope404 p{
+    color: blue;
+}
+
+
+.hope405{
+    display: flex;
+    margin-top: 20px;
+}
+
+.hope405 img{
+    width: 20px;
+    height: 10px;
+    padding-top: 8px; 
+    cursor: pointer;  
+
+}
+
+.hope405:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+
+    
+}
+
+.hope405 p{
+    color: blue;
+}
+
+.hope402 img{
+    width: 350px;
+}
+
+.hope{
+    margin: 10px 10px;
+}
+
+.love{
+
+        background: url(./section3-pix.webp);
+        background-repeat: no-repeat;
+        height: 500px;
+        margin-left: 40px;
+
+}
+
+.love101{
+    margin-top: 40px;
+    margin-left: 30px
+
+}
+ .love101 h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+
+.love101 p{
+    font-size: large;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+
+}
+
+.love101{
+    padding-block: 120px;
+    padding-left: 70px;
+}
+
+.love101 button{
+    cursor: pointer;
+    background-color:rgb(0,103,184);
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    color:rgb(255,255,255) ;
+    border-radius: 2px;
+    border: 1px solid rgb(0,103,184);
+
+}
+
+
+.care{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.care100{
+    width: 25%;
+    
+}
+
+.care101 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+
+}
+
+.care101 p{
+    line-height: 20px;
+
+}
+
+.care102{
+    display: flex;
+    margin-top: 20px;
+}
+
+.care102 img{
+    width: 20px;
+    height: 10px;
+    padding-top: 8px;   
+    cursor: pointer;
+}
+
+.care102:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+
+    
+}
+
+.care102 p{
+    color: blue;
+}
+
+
+.care201{
+    width: 25%;
+
+}
+
+.care202 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+
+}
+
+.care202 p{
+    line-height: 20px;
+
+}
+
+.care203{
+    display: flex;
+    margin-top: 20px;
+}
+
+.care203 img{
+    width: 20px;
+    height: 10px;
+    padding-top: 8px; 
+    cursor: pointer;  
+
+}
+
+.care203:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+
+
+    
+}
+
+.care203 p{
+    color: blue;
+}
+
+
+.care301{
+    width: 25%;
+}
+
+
+.care302 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+
+}
+
+.care302 p{
+    line-height: 20px;
+
+}
+
+.care303{
+    display: flex;
+    margin-top: 20px;
+}
+
+.care303 img{
+    width: 20px;
+    height: 10px;
+    padding-top: 8px;   
+
+}
+
+.care303:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+
+    
+}
+
+.care303 p{
+    color: blue;
+}
+
+
+.care401{
+    width: 25%;
+}
+
+.care402 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+
+}
+
+.care402 p{
+    line-height: 20px;
+
+}
+
+.care404{
+    display: flex;
+    margin-top: 20px;
+}
+
+.care402 img{
+    width: 90%;
+
+}
+
+.care404 img{
+    width: 20px;
+    height: 10px;
+    padding-top: 8px;
+    cursor: pointer;   
+
+}
+
+.care404:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+
+    
+}
+
+.care404 p{
+    color: blue;
+}
+
+
+.gift{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.gift101{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.gift101 img{
+    width: 5%;
+    cursor: pointer;
+    height: 25%;
+}
+
+
+.gift101 h4{
+    margin-left: 30px;
+    font-weight: lighter;
+
+}
+.gift101 img:nth-child(1){
+    margin-right: 70px;
+
+}
+
+
+.gift201 button{
+    cursor: pointer;
+    background-color:rgb(217,217,217);
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    color:black ;
+    border-radius: 2px;
+    border: 1px solid rgb(217,217,217);
+    
+
+}
+
+.gift201 button:hover{
+    background-color: white;
+}
+
+
+.bless{
+    display: flex;
+    justify-content: space-between;
+    /* list-style: none; */
+    margin-top: 50px;
+    justify-content: center;
+    background-color: whitesmoke
+    
+}
+
+.bless101{
+    list-style: none;
+    padding-right: 50px;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+
+
+.bless101 ul{
+    list-style: none;
+    justify-content: space-around;
+}
+
+
+
+.bless201{
+    list-style: none;
+    padding-right: 50px;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+
+
+.bless201 ul{
+    list-style: none;
+    justify-content: space-around;
+}
+
+
+
+.bless301{
+    list-style: none;
+    padding-right: 50px;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+
+
+.bless301 ul{
+    list-style: none;
+    justify-content: space-around;
+}
+
+
+.bless401{
+    list-style: none;
+    padding-right: 50px;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+
+
+.bless401 ul{
+    list-style: none;
+    justify-content: space-around;
+}
+
+
+
+.bless501{
+    list-style: none;
+    padding-right: 50px;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+
+
+.bless501 ul{
+    list-style: none;
+    justify-content: space-around;
+}
